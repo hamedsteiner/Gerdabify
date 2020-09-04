@@ -1,0 +1,57 @@
+a.out: main.o Gerdabify_logic.o User.o Album_place.o Artist.o Artist_place.o Home.o Library.o music.o Music_place.o place.o playlist.o rated_object.o Playlist_place.o Library.o
+	g++ main.o Gerdabify_logic.o User.o Album_place.o Artist.o Artist_place.o Home.o Library.o music.o Music_place.o place.o playlist.o rated_object.o Playlist_place.o Library.o
+ 
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+Gerdabify_logic.o: Gerdabify_logic.cpp
+	g++ -c Gerdabify_logic.cpp
+
+album.o: album.cpp
+	g++ -c album.cpp
+
+Album_place.o: Album_place.cpp
+	g++ -c Album_place.cpp
+
+Artist.o: Artist.cpp
+	g++ -c Artist.cpp
+
+Artist_place.o: Artist_place.cpp
+	g++ -c Artist_place.cpp
+
+Home.o: Home.cpp
+	g++ -c Home.cpp
+
+Library.o: Library.cpp
+	g++ -c Library.cpp
+
+music.o: music.cpp
+	g++ -c music.cpp
+
+Music_place.o: Music_place.cpp
+	g++ -c Music_place.cpp
+
+place.o: place.cpp
+	g++ -c place.cpp
+
+playlist.o: playlist.cpp
+	g++ -c playlist.cpp
+
+rated_object.o: rated_object.cpp
+	g++ -c rated_object.cpp
+
+User.o: User.cpp
+	g++ -c User.cpp
+
+Playlist_place.o: Playlist_place.cpp
+	g++ -c Playlist_place.cpp
+
+Library.o: Library.cpp
+	g++ -c Library.cpp
+
+
+
+
+
+clean: rm -rf *o a.out
