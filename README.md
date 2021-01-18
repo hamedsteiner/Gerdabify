@@ -10,4 +10,4 @@ Design and implementation of an app similar to Spotify.
 
 This project is implemented using C++ ,and HTML.
 
-Note: For running Gerdabify, use make "Makefile" available in "Code" folder and then go to "http://localhost:8080".
+Note: For running Gerdabify, use make "Makefile" available in main directory and then go to "http://localhost:8080".
